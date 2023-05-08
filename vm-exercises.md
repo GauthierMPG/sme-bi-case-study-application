@@ -9,37 +9,40 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Identify the most profitable promotion for the brand "Orchid Oasis" in 2022.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+Orchid Oasis significantly increased their sales in 2022 at Retailer X by offering promotions to the consumers. "Promotions Management" is one of the 5 NRM pillars. To improve the Gross Profit of the brand it would be interesting to compare the promotions uplifts to the redemptions costs we received from Retailer X. Can you help us to identify which promotion mechanism is the most profitable one?
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Create a PivotChart, visualizing the absolute value sales of Orchid Oasis in 2022.
+- Create a table to make a clear overview of the different elements of this comparison
+- Add the promo and baseline sales to the table. For the latter one, you can take the average sales of the non-promo months.
+- Calculate the uplift for the three promotions. Uplift = promo sales - baseline sales.
+- Look up the redemption costs for each promotion in the tab "Promo Info".
+- Define the most profitable promotion mechanism by calculating the Return Of Investment for each promotion. ROI = (uplift - cost) / cost
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+Which promotion mechanism was the most profitable for Orchid Oasis in 2022 at Retailer X?:
+- 1+1 free
+- 2nd at 50% off
+- 2+1 free
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![Conclusion](https://user-images.githubusercontent.com/132507679/236923059-6752d0bd-844a-45d0-aa88-aeef26525c3a.PNG)
+
 
 ## Finalized Workbook
 
@@ -47,8 +50,10 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
 
 #### Explanation & Description
-Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+The learner will learn to use Excel to measure the performance of a brand using different KPI's. He/she will be able to use dynamic tools and visuals in Excel to better deep-dive into the data. Finally, it will be clear how the different NRM will help to grow the business and to generate more sales / profit.
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="1115" alt="Slicers" src="https://user-images.githubusercontent.com/132507679/236928314-d4ff1d0e-36a7-4ac0-b663-85832c103078.png">
+
+
